@@ -1,0 +1,63 @@
+.main-content {
+    display: flex;
+    align-items: start;
+    justify-content: space-between;
+}
+
+.main-content .posts {
+    flex-grow: 2;
+}
+.main-content .navbar, .main-content  .friends {
+    flex-grow: 1;
+}
+
+.posts {
+    max-height: 100vh;
+    overflow-y: scroll;
+}
+
+.posts::-webkit-scrollbar {
+    width: 12px; /* Width for vertical scrollbar */
+}
+
+.following {
+    background-color: white;
+    width: 25rem;
+    margin-top: 0.5rem;
+    border-radius: 3rem;
+    padding: 1rem;
+}
+
+.friends-heading {
+    font-size: 1.1rem;
+    font-weight: 700;
+    padding-left: 0.2rem;
+}
+
+.form-group input {
+    margin-bottom: 0.2rem;
+}
+
+.friends-profile {
+    padding: 0.2rem 0.4rem;
+    box-shadow: 1px 1px 10px #E9E7EF;
+    height: 15rem;
+    overflow-y: scroll;
+    border-radius: 2rem;
+}
+
+.friends-profile::-webkit-scrollbar {
+    width: 12px; /* Width for vertical scrollbar */
+}
+
+li::marker {
+    display: none;
+    text-decoration: none;
+    list-style-type: none;
+}
+
+.buttons {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}

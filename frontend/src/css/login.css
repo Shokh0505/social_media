@@ -1,0 +1,74 @@
+.main {
+    background-color: #E9E7EF;
+    min-height: 100vh;
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+}
+
+.login-container {
+    background-color: #fff;
+    padding: 2rem 2.5rem;
+    border-radius: 3rem;
+}
+
+
+button {
+    width: 80%;
+}
+
+.button {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+@media (max-width: 480px) {
+    .container {
+        width: 100vw;
+    }
+
+    .login-container {
+        width: 80vw;
+    }
+}
+
+@media (min-width: 481px) and (max-width: 767px) {
+    .container {
+        width: 100vw;
+    }
+
+    .login-container {
+        width: 60vw;
+    }
+}
+
+@media (min-width: 768px) and (max-width: 1024px) {
+    .container {
+        width: 100vw;
+    }
+
+    .login-container {
+        width: 50vw;
+    }
+}
+
+@media (min-width: 1025px) and (max-width: 1440px) {
+    .login-container {
+        width: 40vw;
+    }
+
+    .login-container h1, input {
+        margin-bottom: 3rem;
+    }
+}
+
+@media (min-width: 1441px) {
+    .login-container {
+        width: 30vw;
+    }
+}

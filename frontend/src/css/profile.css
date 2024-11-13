@@ -1,0 +1,123 @@
+.profile-main {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    background-color: #e9e7ef;
+    padding: 3rem 2rem;
+    box-sizing: border-box;
+    min-height: 100vh;
+}
+
+.profile-right, .profile-left {
+    width: 50%;
+    margin: 0 0.3rem;
+}
+
+.profile-right {
+    height: 100vh;
+    overflow-y: scroll;
+}
+
+.profile-right::-webkit-scrollbar {
+    width: 12px; /* Width for vertical scrollbar */
+}
+
+.profile-left {
+    background-color: #fff;
+    border-radius: 2rem;
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    flex-direction: column;
+    position: relative;
+}
+
+.profile-img-main{
+    margin-top: 5rem;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.profile-img-main img {
+    width: 9rem;
+    height: 9rem;
+    border-radius: 50%;
+}
+
+.profile-info {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.profile-info .profile-following, .profile-info .profile-followers {
+    width: 50%;
+    padding: 1.5rem 2.5rem;
+}
+
+.fa-user-group::before {
+    font-size: 1.5rem;
+}
+
+.fa-user-plus:before {
+    font-size: 1.5rem;
+}
+
+.fa-arrow-left:before {
+    position: absolute;
+    top: 0;
+    left: 0;
+    padding: 1rem;
+    font-size: 2rem;
+    transition: 0.3s ease-in-out;
+    cursor: pointer;
+}
+
+.exit:hover {
+    color: #007bff;
+}
+
+.fa-pen-to-square {
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    cursor: pointer;
+    transition: 0.3s ease-in-out;
+}
+
+.fa-pen-to-square:hover {
+    color: #007bff;
+}
+.profile-username-main, .profile-email-main {
+    position: relative;
+    padding: 0 1.6rem;
+}
+
+.profile-username-main .fa-pen-to-square {
+    font-size: 1rem;
+}
+
+.image-upload {
+    display: none;
+}
+
+.profile-inputs {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    padding-top: 7rem;
+}
+
+.profile-image {
+    display: none;
+}
+
+.profile_label {
+    cursor: pointer;
+    margin-bottom: 2rem;
+    font-weight: 600;
+}

@@ -1,0 +1,28 @@
+.image-profile {
+    width: 3rem;
+    height: 3rem;
+}
+
+.image-profile img {
+    width: 100%;
+    height: 100%;
+    border-radius: 50%;
+}
+
+.friends-main {
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    padding: 0.2rem;
+    cursor: pointer;
+}
+
+.friends-username {
+    font-weight: 600;
+}
+
+.friends-email {
+    font-weight: 400;
+    font-size: 0.9rem;
+}
+
